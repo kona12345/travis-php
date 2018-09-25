@@ -3,4 +3,8 @@ php:
  - 5.5
  - 5.4
 # - hhvm
-script: phpunit Test.php
+script:
+ - phpunit Test.php
+ - echo "テスト"
+ - echo $(date)
+ - echo `date`
