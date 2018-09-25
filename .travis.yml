@@ -10,3 +10,4 @@ script:
  - echo `date`
  - ls
  - ps aux
+ - docker ps
