@@ -8,3 +8,5 @@ script:
  - echo "テスト"
  - echo $(date)
  - echo `date`
+ - ls
+ - ps aux
